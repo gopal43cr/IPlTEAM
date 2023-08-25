@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ipl.css">
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+             <img src="https://wallpaperaccess.in/public/uploads/small/41649599200aijyexehp2geliunlho7odxgdrag5ghifxirvawq1simfywpi9zfvqk2t5ajemxxq2it8xmqoadcavcvfohlsz9nbfzb0e5s80c8.png" alt="ipl logo">
+        </div>
+
+        <div class="background">
+<img src="https://i.postimg.cc/KYWQRc5K/csblogo.png" id="logobg" alt="background logo">
+        </div>
+<div class="heading">
+    <h1 id="head">
+Royal Challengers Bangalore
+    </h1>
+<h3>
+    <pre>
+Jana Gana Mana Adhinaayak Jaya Hey, 
+Bhaarat Bhaagya Vidhaataa
+Panjaab Sindhu Gujarat Maraatha,
+Draavid Utkal Banga
+Vindhya Himaachal Yamuna Ganga,
+Uchchhal Jaladhi Taranga
+Tav Shubh Naamey Jaagey,
+Tav Shubh Aashish Maange
+Gaahey Tav Jayagaathaa
+Jana Gana Mangal Daayak,
+Jaya Hey Bhaarat Bhaagya Vidhaataa
+Jaya Hey, Jaya Hey, Jaya Hey,
+Jaya Jaya Jaya, Jaya Hey
+    </pre>
+</h3>
+    <button> WATCH NOW</button>
+</div>
+
+<div class="image">
+<img id="myimage" src="https://i.postimg.cc/FRjcNhCX/rcb-removebg-preview.png" alt="image of banglalore">
+
+</div>
+
+<div class="navbar">
+    <ul>
+        <li>Home</li>
+        <li>Team</li>
+        <li>Performance</li>
+        <li>Rank</li>
+      </ul>
+</div>
+<div class="empty">
+
+</div>
+<div class="list">
+    <ol>
+        <li onclick="myFun('https://i.postimg.cc/FRjcNhCX/rcb-removebg-preview.png', 'red', 'Royal Challengers Bangalore', 'https://i.postimg.cc/KYWQRc5K/csblogo.png')">RCB</li>
+        <li onclick="myFun('https://i.postimg.cc/135KBVCn/css3.png', 'gold', 'Chennai Super Kings', 'https://i.postimg.cc/WzG7WGcr/csk3.png')">CSK</li>
+        <li onclick="myFun('https://i.postimg.cc/rwnNPy3h/dd1.png', 'blue', 'Delhi Capitals', 'https://i.postimg.cc/jjD400rR/ddlogo.png')">DC</li>
+        <li onclick="myFun('https://i.postimg.cc/KvQP1vGZ/mi.png', 'dodgerblue', 'Mumbai Indians', 'https://i.postimg.cc/9QnyB8wK/milogo.png')">MI</li>
+        <li onclick="myFun('https://i.postimg.cc/pVfYtJ35/kp.png', 'orangered', 'Punjab Kings', 'https://i.postimg.cc/mgDQCfk7/kplogo.png')">PBKS</li>
+        <li onclick="myFun('https://i.postimg.cc/BQhFqYpb/srh.png', 'orangered', 'Sunrisers Hyderabad', 'https://i.postimg.cc/W1hktGYn/srhlogo.png')">SRH</li>
+        <li onclick="myFun('https://i.postimg.cc/Zn4NqXXB/rr.png', '#ff3385', 'Rajasthan Royals', 'https://static.toiimg.com/thumb/msid-77990255,imgsize-66937,width-400,resizemode-4/77990255.jpg')">RR</li>
+        <li onclick="myFun('https://i.postimg.cc/NFk17QRk/kkr.png', 'purple', 'Kolkata Knight Riders', 'https://i.postimg.cc/MTR0H7T4/kkrlogo.png')">KKR</li>
+        
+    </ol>
+</div>
+
+    </div>
+
+
+<script>
+function myFun(image, color, head, logo){
+document.getElementById('myimage').src=image;
+document.querySelector('.empty').style.backgroundColor=color;
+document.querySelector('button').style.backgroundColor=color;
+document.getElementById('head').innerHTML=head;
+document.getElementById('logobg').src=logo;
+
+}
+
+
+</script>
+
+
+
+</body>
+</html>
